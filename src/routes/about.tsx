@@ -35,8 +35,7 @@ function About() {
         <div className="relative mx-auto max-w-3xl px-4 py-20 text-center">
           <h1 className="text-4xl font-extrabold text-white sm:text-5xl">About Sagal Green Cleaning Services</h1>
           <p className="mt-4 text-lg text-white/85">
-            Careful, reliable cleaning for homes and short-term rentals across Regina,
-            Saskatchewan.
+            Careful, reliable cleaning for homes, offices, and short-term rentals across Regina, Saskatchewan — offering Move-in/Move-out Cleaning, Residential Cleaning, Office Cleaning, and Airbnb/Short-Term Rental Turnovers..
           </p>
         </div>
       </section>
@@ -49,24 +48,29 @@ function About() {
             </p>
             <h2 className="mt-3 text-3xl sm:text-4xl">Cleaning, done the way we'd want it done</h2>
             <p className="mt-6 text-lg leading-relaxed text-charcoal">
-              Sagal Green started with a simple observation: most people don't want a cleaning
-              company, they want their time back and a home that feels good to be in. So we built
-              the service around that — clear about what we do, careful about how we do it, and
-              easy to work with from the first message.
+              Sagal Green Cleaning Services started with a simple observation: most people don't want
+              to spend their time cleaning, they want their time back and a home that feels good to be
+              in. Businesses want the same for their spaces: a clean, fresh, and comfortable
+              environment for their employees and customers.
+            </p>
+            <p className="mt-4 text-lg leading-relaxed text-charcoal">
+              So we built our service around that idea — being clear about what we do, careful about
+              how we do it, and easy to work with from the very first message.
             </p>
           </Reveal>
           <Reveal delay={90}>
             <p className="mt-6 text-lg leading-relaxed text-charcoal">
               We're a small, locally owned business in Regina, which means the person quoting your
-              home is the same person who cares how it turns out. We'd rather do a thorough job on
-              the rooms that matter to you than a rushed pass over everything, and we'd rather tell
-              you plainly what a visit covers than let you find out afterwards.
+              home is the same person who cares about how the job turns out. We believe in doing a
+              thorough job and paying attention to the areas that matter most to you, rather than
+              rushing through a space just to get it done. We also believe in being upfront about what
+              each cleaning includes, so you know exactly what to expect.
             </p>
           </Reveal>
           <Reveal delay={160}>
             <p className="mt-6 text-lg leading-relaxed text-charcoal">
-              That's the whole philosophy: attention to detail, reliable service, and treating
-              someone's space with the same care we'd give our own.
+              Our philosophy: attention to detail, reliable service, honest communication, and treating
+              every space with the same care we would give our own.
             </p>
           </Reveal>
         </div>
