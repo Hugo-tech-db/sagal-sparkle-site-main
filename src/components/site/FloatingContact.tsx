@@ -37,7 +37,7 @@ export default function FloatingContact() {
                 className="flex flex-col gap-2.5 rounded-2xl bg-white/95 backdrop-blur-md p-3.5 shadow-2xl border border-black/10 text-navy"
               >
                 <a
-                  href={`${WHATSAPP_HREF}?text=${encodeURIComponent("Hi Sagal Green, I'd like to get a quote for a cleaning service in Regina!")}`}
+                  href={WHATSAPP_HREF}
                   target="_blank"
                   rel="noreferrer"
                   className="flex items-center gap-3 rounded-xl bg-[#25D366] px-4 py-2.5 text-sm font-bold text-white shadow-sm transition hover:bg-[#1EBE5D] hover:scale-[1.02]"
@@ -67,7 +67,7 @@ export default function FloatingContact() {
           >
             {/* Direct Quick WhatsApp Link */}
             <a
-              href={`${WHATSAPP_HREF}?text=${encodeURIComponent("Hi Sagal Green, I'd like to ask for a free cleaning quote!")}`}
+              href={WHATSAPP_HREF}
               target="_blank"
               rel="noreferrer"
               aria-label="Chat on WhatsApp with Sagal Green"

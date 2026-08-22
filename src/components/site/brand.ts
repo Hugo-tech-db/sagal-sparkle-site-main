@@ -15,7 +15,9 @@ export const heroImageAlt =
 
 export const PHONE_DISPLAY = "639-999-4777";
 export const PHONE_HREF = "tel:+16399994777";
-export const WHATSAPP_HREF = "https://wa.me/16399994777";
+export const WHATSAPP_BASE_URL = "https://wa.me/16399994777";
+export const WHATSAPP_DEFAULT_MESSAGE = "Hi Sagal Green, I'd like to get a quote for a cleaning service in Regina!";
+export const WHATSAPP_HREF = `${WHATSAPP_BASE_URL}?text=${encodeURIComponent(WHATSAPP_DEFAULT_MESSAGE)}`;
 export const EMAIL = "sagalgreen.services@yahoo.com";
 export const EMAIL_HREF = `mailto:${EMAIL}`;
 export const INSTAGRAM_HREF = "https://instagram.com/";
