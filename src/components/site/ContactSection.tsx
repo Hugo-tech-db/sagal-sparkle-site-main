@@ -183,8 +183,8 @@ export default function ContactSection() {
               </label>
               <select id="frequency" name="frequency" className={fieldClass}>
                 <option value="One-time">One-time Clean</option>
-                <option value="Weekly">Weekly (15% off regular rate)</option>
-                <option value="Bi-weekly">Bi-weekly (Most Popular)</option>
+                <option value="Weekly">Weekly</option>
+                <option value="Bi-weekly">Bi-weekly</option>
                 <option value="Monthly">Monthly Reset</option>
               </select>
             </div>
