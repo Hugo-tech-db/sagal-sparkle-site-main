@@ -22,6 +22,14 @@ const officialReviews: Review[] = [
     date: "August 12, 2026",
     isOfficial: true,
   },
+  {
+    id: "official-2",
+    name: "Balogun Faoziyat",
+    rating: 5,
+    text: "Thank you … my home feels homely.",
+    date: "August 25, 2026",
+    isOfficial: true,
+  },
 ];
 
 /* ─── Star renderer ──────────────────────────────────────── */
