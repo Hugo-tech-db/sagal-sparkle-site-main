@@ -7,7 +7,7 @@ import ourServicesImg from "@/assets/OUR_SERVICES.jpg";
 
 const title = "Cleaning Services in Regina | Sagal Green Cleaning Services";
 const description =
-  "Residential, office, move-in/move-out, and Airbnb turnover cleaning in Regina, Saskatchewan.";
+  "Professional Home Cleaning and Office Cleaning services in Regina, Saskatchewan.";
 
 export const Route = createFileRoute("/services/")({
   head: () => ({
@@ -36,8 +36,7 @@ function ServicesPage() {
         <div className="relative mx-auto max-w-3xl px-4 py-20 text-center">
           <h1 className="text-4xl font-extrabold text-white sm:text-5xl">Our cleaning services</h1>
           <p className="mt-4 text-lg text-white/85">
-            Every home needs something slightly different. Find the clean that fits where you are
-            right now.
+            Whether for your home or your commercial workplace, discover reliable cleaning tailored to your schedule.
           </p>
         </div>
       </section>

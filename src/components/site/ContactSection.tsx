@@ -111,9 +111,6 @@ export default function ContactSection() {
             <Phone size={18} aria-hidden /> {PHONE_DISPLAY}
           </a>
         </div>
-        <p className="mt-4 text-center text-sm text-charcoal/80">
-          We accept Interac e-Transfer with Autodeposit — booking confirmation sent promptly.
-        </p>
 
         <form
           onSubmit={(e) => e.preventDefault()}
@@ -164,16 +161,17 @@ export default function ContactSection() {
                 value={service}
                 onChange={(e) => setService(e.target.value)}
               >
-                <optgroup label="Residential Cleaning">
-                  <option value="Residential Cleaning">Residential Cleaning</option>
+                <optgroup label="Home Cleaning">
+                  <option value="Home Cleaning">Home Cleaning</option>
                   <option value="Deep Cleaning">Deep Cleaning</option>
-                  <option value="Recurring Cleaning">Recurring Cleaning</option>
+                  <option value="Recurring Home Cleaning">Recurring Home Cleaning</option>
                 </optgroup>
-                <optgroup label="Other Services">
-                  {services.filter(s => s.slug !== "residential-cleaning").map((s) => (
-                    <option key={s.slug} value={s.title}>{s.title}</option>
-                  ))}
-                  <option value="Custom / Other Cleaning">Other</option>
+                <optgroup label="Office Cleaning">
+                  <option value="Office Cleaning">Office Cleaning</option>
+                  <option value="Recurring Office Cleaning">Recurring Office Cleaning</option>
+                </optgroup>
+                <optgroup label="Other">
+                  <option value="Custom / Other Cleaning">Custom / Other Request</option>
                 </optgroup>
               </select>
             </div>

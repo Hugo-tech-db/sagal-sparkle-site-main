@@ -26,7 +26,7 @@ export default function Footer() {
 
       <div className="relative mx-auto max-w-6xl px-4 pb-14">
         <div className="border-t border-white/15 pt-12" />
-        <footer className="grid gap-10 md:grid-cols-2 lg:grid-cols-4">
+        <footer className="grid gap-10 sm:grid-cols-2 lg:grid-cols-3">
 
           <div>
             <img
@@ -101,14 +101,6 @@ export default function Footer() {
                 </a>
               </li>
             </ul>
-          </div>
-          <div>
-            <h3 className="mb-3 text-sm font-semibold uppercase tracking-wide text-gold">
-              Payment
-            </h3>
-            <p className="text-sm text-white/85">
-              Interac e-Transfer with Autodeposit accepted.
-            </p>
           </div>
         </footer>
         <div className="mt-10 border-t border-white/15 pt-6 text-center text-xs text-white/70">

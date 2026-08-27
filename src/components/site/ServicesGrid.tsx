@@ -1,33 +1,29 @@
 import { Link } from "@tanstack/react-router";
 import { useState } from "react";
-import { ChevronDown, Check, Sparkles, RefreshCw } from "lucide-react";
+import { ChevronDown, Check, Sparkles, RefreshCw, Briefcase, Building } from "lucide-react";
 import { services, serviceMeta, type ServiceKey } from "./brand";
 import Reveal from "./Reveal";
-import residentialIcon from "@/assets/icon_residential.png";
-import moveIcon from "@/assets/icon_move_in_out.png";
-import airbnbIcon from "@/assets/icon_airbnb.png";
+import homeIcon from "@/assets/icon_residential.png";
 import officeIcon from "@/assets/icon_office.png";
 
 const icons: Record<ServiceKey, string> = {
-  "residential-cleaning": residentialIcon,
+  "home-cleaning": homeIcon,
   "office-cleaning": officeIcon,
-  "move-in-move-out-cleaning": moveIcon,
-  "airbnb-turnovers": airbnbIcon,
 };
 
 export default function ServicesGrid() {
   const [open, setOpen] = useState<ServiceKey | null>(null);
 
   return (
-    <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
+    <div className="grid gap-8 md:grid-cols-2 max-w-4xl mx-auto">
       {services.map((s, i) => {
         const meta = serviceMeta[s.slug];
         const isOpen = open === s.slug;
         return (
           <Reveal
             key={s.slug}
-            delay={i * 70}
-            className="flex flex-col rounded-2xl border border-black/5 bg-white p-8 text-center shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-lg"
+            delay={i * 90}
+            className="flex flex-col rounded-2xl border border-black/5 bg-white p-8 sm:p-10 text-center shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-lg"
           >
             <div className="mx-auto grid h-[120px] w-[120px] place-items-center rounded-full bg-greenlight transition duration-300">
               <img
@@ -42,18 +38,30 @@ export default function ServicesGrid() {
             <p className="mt-6 text-xs font-semibold uppercase tracking-[0.18em] text-gold">
               {meta.label}
             </p>
-            <h3 className="mt-2 text-xl">{s.title}</h3>
+            <h3 className="mt-2 text-2xl font-bold text-navy">{s.title}</h3>
             <p className="mt-3 text-sm leading-relaxed text-charcoal">{meta.solves}</p>
             <p className="mt-3 text-sm leading-relaxed text-charcoal/85">{s.teaser}</p>
 
-            {/* Sub-services for Residential Cleaning */}
-            {s.slug === "residential-cleaning" && (
+            {/* Sub-services for Home Cleaning */}
+            {s.slug === "home-cleaning" && (
               <div className="mt-4 flex flex-wrap justify-center gap-2">
                 <span className="inline-flex items-center gap-1.5 rounded-full bg-[#4CB944]/10 px-3 py-1 text-xs font-semibold text-[#3da835]">
                   <Sparkles size={11} aria-hidden /> Deep Cleaning
                 </span>
                 <span className="inline-flex items-center gap-1.5 rounded-full bg-[#4CB944]/10 px-3 py-1 text-xs font-semibold text-[#3da835]">
-                  <RefreshCw size={11} aria-hidden /> Recurring Cleaning
+                  <RefreshCw size={11} aria-hidden /> Recurring Care
+                </span>
+              </div>
+            )}
+
+            {/* Sub-services for Office Cleaning */}
+            {s.slug === "office-cleaning" && (
+              <div className="mt-4 flex flex-wrap justify-center gap-2">
+                <span className="inline-flex items-center gap-1.5 rounded-full bg-[#4CB944]/10 px-3 py-1 text-xs font-semibold text-[#3da835]">
+                  <Building size={11} aria-hidden /> Commercial Workspaces
+                </span>
+                <span className="inline-flex items-center gap-1.5 rounded-full bg-[#4CB944]/10 px-3 py-1 text-xs font-semibold text-[#3da835]">
+                  <Briefcase size={11} aria-hidden /> Scheduled Maintenance
                 </span>
               </div>
             )}

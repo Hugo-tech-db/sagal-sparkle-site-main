@@ -10,13 +10,13 @@ import heroBg5 from "@/assets/airbnb_turnover_heade.jpg";
 export const heroSlides = [
   {
     src: heroBg1,
-    alt: "Pristine modern interior cleaned by Sagal Green Cleaning Services in Regina",
+    alt: "Pristine modern office interior cleaned by Sagal Green Cleaning Services in Regina",
     tag: "Commercial & Office Cleaning",
   },
   {
     src: heroBg2,
     alt: "Spotless kitchen and surfaces in Regina home",
-    tag: "Residential & Kitchen Reset",
+    tag: "Home & Kitchen Care",
   },
   {
     src: heroBg3,
@@ -26,12 +26,12 @@ export const heroSlides = [
   {
     src: heroBg4,
     alt: "Crisp, fresh bedroom transformation",
-    tag: "Bedrooms & Detail Cleaning",
+    tag: "Bedrooms & Home Care",
   },
   {
     src: heroBg5,
-    alt: "Spotless Airbnb turnover cleaning in Regina",
-    tag: "Airbnb & Turnover Turnaround",
+    alt: "Spotless workspace and clean suite in Regina",
+    tag: "Workspace & Office Care",
   },
 ];
 

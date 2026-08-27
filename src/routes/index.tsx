@@ -16,12 +16,11 @@ import {
 } from "@/components/site/brand";
 
 const heroServices = [
-  "Residential Cleaning",
+  "Home Cleaning",
   "Office Cleaning",
-  "Move-In/Move-Out Cleaning",
-  "Airbnb Cleaning",
-  "Preference Cleaning",
-  "Custom Cleaning Plans",
+  "Deep Cleaning & Refresh",
+  "Recurring Cleaning Plans",
+  "Preference & Custom Cleans",
 ];
 
 const heroTrust = [
@@ -32,7 +31,7 @@ const heroTrust = [
 
 const title = "Sagal Green Cleaning Services | Home & Office Cleaning in Regina";
 const description =
-  "Professional home and office cleaning in Regina, Saskatchewan — residential, office, move-in/move-out, and Airbnb turnover cleaning. Free quotes.";
+  "Professional home and office cleaning in Regina, Saskatchewan — reliable, detail-oriented cleaning for residences and commercial workspaces. Free quotes.";
 
 export const Route = createFileRoute("/")({
   head: () => ({

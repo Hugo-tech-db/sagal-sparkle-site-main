@@ -6,7 +6,7 @@ import aboutUsImg from "@/assets/ABOUT_US.jpg";
 
 const title = "About Us | Sagal Green Cleaning Services, Regina";
 const description =
-  "A small, locally owned cleaning business in Regina giving every home the personal attention it deserves.";
+  "A small, locally owned cleaning business in Regina providing dedicated Home Cleaning and Office Cleaning services.";
 
 export const Route = createFileRoute("/about")({
   head: () => ({
@@ -35,7 +35,7 @@ function About() {
         <div className="relative mx-auto max-w-3xl px-4 py-20 text-center">
           <h1 className="text-4xl font-extrabold text-white sm:text-5xl">About Sagal Green Cleaning Services</h1>
           <p className="mt-4 text-lg text-white/85">
-            Careful, reliable cleaning for homes, offices, and short-term rentals across Regina, Saskatchewan — offering Move-in/Move-out Cleaning, Residential Cleaning, Office Cleaning, and Airbnb/Short-Term Rental Turnovers..
+            Careful, reliable cleaning for homes and commercial workspaces across Regina, Saskatchewan — offering dedicated Home Cleaning and Office Cleaning tailored to your space.
           </p>
         </div>
       </section>

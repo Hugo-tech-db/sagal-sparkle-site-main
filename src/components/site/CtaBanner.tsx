@@ -11,7 +11,7 @@ export default function CtaBanner() {
     <section className="relative mx-auto max-w-3xl px-4 py-16 text-center sm:py-20">
       <h2 className="text-3xl text-white sm:text-4xl">Ready for a cleaner home?</h2>
       <p className="mx-auto mt-4 max-w-xl text-lg text-white/85">
-        You've got enough on your schedule. Let Sagal Green take cleaning off your list — one
+        You've got enough on your schedule. Let Sagalgreen take cleaning off your list — one
         quick message and we'll have your free quote back to you shortly.
       </p>
       <div className="mt-8 flex flex-wrap justify-center gap-3">
