@@ -31,7 +31,7 @@ export default function Footer() {
           <div>
             <img
               src={logo}
-              alt="Sagal Green Cleaning Services logo"
+              alt="Sagalgreen Cleaning Services logo"
               className="mb-4 h-14 w-auto brightness-0 invert"
             />
             <p className="text-sm leading-relaxed text-white/80">
@@ -94,7 +94,7 @@ export default function Footer() {
               <li>
                 <a
                   href={EMAIL_HREF}
-                  aria-label="Email Sagal Green Cleaning Services"
+                  aria-label="Email Sagalgreen Cleaning Services"
                   className="flex items-center gap-2 break-all hover:text-gold"
                 >
                   <Mail size={17} aria-hidden /> {EMAIL}
@@ -104,7 +104,7 @@ export default function Footer() {
           </div>
         </footer>
         <div className="mt-10 border-t border-white/15 pt-6 text-center text-xs text-white/70">
-          © 2026 Sagal Green Cleaning Services. All rights reserved.
+          © 2026 Sagalgreen Cleaning Services. All rights reserved.
         </div>
       </div>
     </div>

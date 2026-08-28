@@ -5,7 +5,7 @@ import FaqSection from "@/components/site/FaqSection";
 import Reveal from "@/components/site/Reveal";
 import ourServicesImg from "@/assets/OUR_SERVICES.jpg";
 
-const title = "Cleaning Services in Regina | Sagal Green Cleaning Services";
+const title = "Cleaning Services in Regina | Sagalgreen Cleaning Services";
 const description =
   "Professional Home Cleaning and Office Cleaning services in Regina, Saskatchewan.";
 

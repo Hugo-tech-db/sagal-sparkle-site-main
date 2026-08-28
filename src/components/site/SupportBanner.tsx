@@ -9,7 +9,7 @@ export default function SupportBanner() {
       {/* Background image */}
       <img
         src={mockupAbout}
-        alt="Sagal Green — support you can trust"
+        alt="Sagalgreen — support you can trust"
         className="absolute inset-0 h-full w-full object-cover object-center"
       />
       {/* Dark overlay for readability */}
@@ -19,7 +19,7 @@ export default function SupportBanner() {
       <div className="relative mx-auto w-full max-w-6xl px-4 py-20 text-center">
         <Reveal>
           <p className="text-xs sm:text-sm font-bold uppercase tracking-[0.28em] text-[#4CB944] mb-4">
-            Sagal Green Cleaning Services
+            Sagalgreen Cleaning Services
           </p>
           <h2
             className="text-4xl sm:text-5xl lg:text-6xl font-extrabold uppercase tracking-tight text-white leading-tight"

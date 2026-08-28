@@ -4,7 +4,7 @@ import Expectations from "@/components/site/Expectations";
 import Reveal from "@/components/site/Reveal";
 import aboutUsImg from "@/assets/ABOUT_US.jpg";
 
-const title = "About Us | Sagal Green Cleaning Services, Regina";
+const title = "About Us | Sagalgreen Cleaning Services, Regina";
 const description =
   "A small, locally owned cleaning business in Regina providing dedicated Home Cleaning and Office Cleaning services.";
 
@@ -28,12 +28,12 @@ function About() {
       <section className="relative overflow-hidden">
         <img
           src={aboutUsImg}
-          alt="About Sagal Green Cleaning Services"
+          alt="About Sagalgreen Cleaning Services"
           className="absolute inset-0 h-full w-full object-cover object-center"
         />
         <div className="absolute inset-0 bg-black/55" aria-hidden />
         <div className="relative mx-auto max-w-3xl px-4 py-20 text-center">
-          <h1 className="text-4xl font-extrabold text-white sm:text-5xl">About Sagal Green Cleaning Services</h1>
+          <h1 className="text-4xl font-extrabold text-white sm:text-5xl">About Sagalgreen Cleaning Services</h1>
           <p className="mt-4 text-lg text-white/85">
             Careful, reliable cleaning for homes and commercial workspaces across Regina, Saskatchewan — offering dedicated Home Cleaning and Office Cleaning tailored to your space.
           </p>
@@ -48,7 +48,7 @@ function About() {
             </p>
             <h2 className="mt-3 text-3xl sm:text-4xl">Cleaning, done the way we'd want it done</h2>
             <p className="mt-6 text-lg leading-relaxed text-charcoal">
-              Sagal Green Cleaning Services started with a simple observation: most people don't want
+              Sagalgreen Cleaning Services started with a simple observation: most people don't want
               to spend their time cleaning, they want their time back and a home that feels good to be
               in. Businesses want the same for their spaces: a clean, fresh, and comfortable
               environment for their employees and customers.

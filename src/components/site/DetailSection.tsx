@@ -48,7 +48,7 @@ export default function DetailSection() {
             <div className="mt-8 overflow-hidden rounded-3xl shadow-md">
               <img
                 src={detailImage}
-                alt="A gloved hand scrubbing a bathroom sink during a Sagal Green cleaning"
+                alt="A gloved hand scrubbing a bathroom sink during a Sagalgreen cleaning"
                 loading="lazy"
                 className="h-64 w-full object-cover sm:h-80"
               />

@@ -3,7 +3,7 @@ import ContactSection from "@/components/site/ContactSection";
 import HowItWorks from "@/components/site/HowItWorks";
 import FaqSection from "@/components/site/FaqSection";
 
-const title = "Contact | Sagal Green Cleaning Services, Regina";
+const title = "Contact | Sagalgreen Cleaning Services, Regina";
 const description =
   "Request a free cleaning quote in Regina. Message us on WhatsApp, call 639-999-4777, or send an email.";
 
@@ -24,7 +24,7 @@ export const Route = createFileRoute("/contact")({
 function Contact() {
   return (
     <>
-      <h1 className="sr-only">Contact Sagal Green Cleaning Services</h1>
+      <h1 className="sr-only">Contact Sagalgreen Cleaning Services</h1>
       <ContactSection />
       <HowItWorks />
       <FaqSection />

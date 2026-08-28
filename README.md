@@ -1,10 +1,10 @@
 # Sagal Shine
 
-# Sagal Green Cleaning Services — Website Rebuild Prompt (Build 2)
+# Sagalgreen Cleaning Services — Website Rebuild Prompt (Build 2)
 
 ## Project context
 
-Build a polished, client-ready marketing website for **Sagal Green Cleaning Services**, a new, locally owned residential and short-term rental cleaning company based in Regina, Saskatchewan. This is a full redesign replacing an earlier version, incorporating direct client feedback. Stack: React / Vite / Tailwind (TanStack Start), matching the existing project structure.
+Build a polished, client-ready marketing website for **Sagalgreen Cleaning Services**, a new, locally owned residential and short-term rental cleaning company based in Regina, Saskatchewan. This is a full redesign replacing an earlier version, incorporating direct client feedback. Stack: React / Vite / Tailwind (TanStack Start), matching the existing project structure.
 
 ---
 
@@ -147,7 +147,7 @@ A subtle, continuously drifting gradient sits behind the hero content — soft a
 Placed directly after the Hero (proof-of-work leads before trust claims).
 
 **Heading:** See the Difference
-**Subtext:** A real before-and-after from Sagal Green Cleaning Services.
+**Subtext:** A real before-and-after from Sagalgreen Cleaning Services.
 
 **Component:** Drag-to-reveal slider (vertical draggable handle, NOT swipe-based, to avoid gesture conflict with page scroll/swipe navigation). Build the component to support multiple before/after pairs via dot navigation, but only render at launch:
 
@@ -157,7 +157,7 @@ Dot navigation UI should be present in the component logic but functionally hidd
 
 **Image dimensions:** Before/after photos are portrait orientation, 945×1312px. Build the slider component to this aspect ratio so future pairs slot in without layout shifts.
 
-**Accessibility:** Slider must be keyboard-operable (arrow keys to drag the handle, not drag/tap-only) in addition to mouse/touch drag. Each image needs descriptive alt text, e.g. "Bedroom before cleaning by Sagal Green" / "Bedroom after cleaning by Sagal Green."
+**Accessibility:** Slider must be keyboard-operable (arrow keys to drag the handle, not drag/tap-only) in addition to mouse/touch drag. Each image needs descriptive alt text, e.g. "Bedroom before cleaning by Sagalgreen" / "Bedroom after cleaning by Sagalgreen."
 
 ---
 
@@ -165,7 +165,7 @@ Dot navigation UI should be present in the component logic but functionally hidd
 
 Use this exact client-provided copy, styled with the emojis as list-item leads:
 
-> At Sagal Green Cleaning Services, we believe the little things matter. As a small, locally owned cleaning business, we give every home the personal attention it deserves.
+> At Sagalgreen Cleaning Services, we believe the little things matter. As a small, locally owned cleaning business, we give every home the personal attention it deserves.
 
 - 🧼✨ Detailed, customized cleaning
 - 🧴 Quality cleaning products
@@ -205,7 +205,7 @@ Do NOT include an Office/Commercial Cleaning card — explicitly out of scope.
 
 Each of the 5 services gets its own dedicated page/route. Template per page:
 
-1. **Banner header:** service name as large headline over the uploaded service header photo (landscape, 1600×600px), styled consistent with the nav/logo bar above it. Alt text should describe the service, e.g. "Sagal Green team performing deep cleaning."
+1. **Banner header:** service name as large headline over the uploaded service header photo (landscape, 1600×600px), styled consistent with the nav/logo bar above it. Alt text should describe the service, e.g. "Sagalgreen team performing deep cleaning."
 2. **Full-length body copy** (see below — long-form, benefit-driven, sensory)
 3. **"What's Included" checklist:** two-column layout with gold arrow/checkmark bullets (styled like a feature-list block, navy text)
 4. **CTA block:** "Ready to book? Message us on WhatsApp or email for a free, no-obligation quote." + WhatsApp and Email pill buttons
@@ -326,7 +326,7 @@ Keep this section short — one headline, one line of subtext, one button. Its j
 **Background:** the same photo uploaded for the Bottom CTA banner (Section 6b), full-bleed, `background-size: cover`, with a solid navy (`#0A1F44`) overlay wash at ~85–90% opacity (slightly heavier than the CTA banner's overlay, since the footer carries more/smaller text that needs a more stable, consistent background beneath it). The photo should read as a faint, textured presence behind the navy rather than a clearly visible image — this keeps the footer feeling anchored and premium rather than busy. White/light-gray text, gold (`#D4A72C`) section labels. Four-column responsive layout (stacks on mobile):
 
 **Column 1 — Brand:**
-- Logo mark + "Sagal Green Cleaning" wordmark
+- Logo mark + "Sagalgreen Cleaning" wordmark
 - Tagline: "Small business. Personal touch. Spotless results. Proudly serving Regina, Saskatchewan."
 
 **Column 2 — Quick Links:**
@@ -340,7 +340,7 @@ Keep this section short — one headline, one line of subtext, one button. Its j
 **Column 4 — Payment:**
 - "Interac e-Transfer with Autodeposit accepted."
 
-**Bottom bar:** thin divider line, centered copyright: "© 2026 Sagal Green Cleaning Services. All rights reserved."
+**Bottom bar:** thin divider line, centered copyright: "© 2026 Sagalgreen Cleaning Services. All rights reserved."
 
 ---
 

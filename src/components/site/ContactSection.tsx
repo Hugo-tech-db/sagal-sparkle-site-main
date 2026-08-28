@@ -33,7 +33,7 @@ export default function ContactSection() {
     const data = getFormData(form);
 
     const message = [
-      `👋 *Quote Request — Sagal Green Cleaning*`,
+      `👋 *Quote Request — Sagalgreen Cleaning*`,
       ``,
       `👤 *Name:* ${data.name}`,
       `📞 *Phone:* ${data.phone || "Not provided"}`,

@@ -45,7 +45,7 @@ export default function HomeShineSection() {
           >
             <img
               src={picture3}
-              alt="Immaculate kitchen cleaned by Sagal Green"
+              alt="Immaculate kitchen cleaned by Sagalgreen"
               className="w-28 h-20 sm:w-44 sm:h-32 md:w-56 md:h-40 lg:w-64 lg:h-44 object-cover rounded-2xl shadow-2xl border-2 border-white/20 -rotate-6 transition-all duration-300 group-hover:rotate-0 group-hover:scale-105 group-hover:border-[#4CB944]/60"
             />
           </motion.div>
@@ -65,7 +65,7 @@ export default function HomeShineSection() {
           >
             <img
               src={picture4}
-              alt="Fresh living room cleaned by Sagal Green"
+              alt="Fresh living room cleaned by Sagalgreen"
               className="w-28 h-20 sm:w-44 sm:h-32 md:w-56 md:h-40 lg:w-64 lg:h-44 object-cover rounded-2xl shadow-2xl border-2 border-white/20 rotate-6 transition-all duration-300 group-hover:rotate-0 group-hover:scale-105 group-hover:border-[#4CB944]/60"
             />
           </motion.div>
@@ -85,7 +85,7 @@ export default function HomeShineSection() {
           >
             <img
               src={picture5}
-              alt="Spotless luxury bedroom cleaned by Sagal Green"
+              alt="Spotless luxury bedroom cleaned by Sagalgreen"
               className="w-32 h-24 sm:w-48 sm:h-36 md:w-60 md:h-44 lg:w-68 lg:h-48 object-cover rounded-2xl shadow-2xl border-2 border-white/20 -rotate-3 transition-all duration-300 group-hover:rotate-0 group-hover:scale-105 group-hover:border-[#4CB944]/60"
             />
           </motion.div>
@@ -105,7 +105,7 @@ export default function HomeShineSection() {
           >
             <img
               src={picture6}
-              alt="Sparkling modern bathroom cleaned by Sagal Green"
+              alt="Sparkling modern bathroom cleaned by Sagalgreen"
               className="w-32 h-24 sm:w-48 sm:h-36 md:w-60 md:h-44 lg:w-68 lg:h-48 object-cover rounded-2xl shadow-2xl border-2 border-white/20 rotate-4 transition-all duration-300 group-hover:rotate-0 group-hover:scale-105 group-hover:border-[#4CB944]/60"
             />
           </motion.div>

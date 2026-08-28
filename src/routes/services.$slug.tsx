@@ -14,12 +14,12 @@ export const Route = createFileRoute("/services/$slug")({
     if (!loaderData) {
       return {
         meta: [
-          { title: "Service not found | Sagal Green Cleaning Services" },
+          { title: "Service not found | Sagalgreen Cleaning Services" },
           { name: "robots", content: "noindex" },
         ],
       };
     }
-    const title = `${loaderData.service.title} in Regina | Sagal Green Cleaning Services`;
+    const title = `${loaderData.service.title} in Regina | Sagalgreen Cleaning Services`;
     const description = loaderData.service.teaser;
     return {
       meta: [

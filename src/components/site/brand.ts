@@ -7,12 +7,12 @@ import ctaBannerImage from "@/assets/FOOTER_BACKGROUND.jpg";
 
 export { logo, beforeImage, afterImage, ctaBannerImage, heroImage };
 export const heroImageAlt =
-  "Bright, spotless modern lobby cleaned by Sagal Green Cleaning Services";
+  "Bright, spotless modern lobby cleaned by Sagalgreen Cleaning Services";
 
 export const PHONE_DISPLAY = "639-999-4777";
 export const PHONE_HREF = "tel:+16399994777";
 export const WHATSAPP_BASE_URL = "https://wa.me/16399994777";
-export const WHATSAPP_DEFAULT_MESSAGE = "Hi Sagal Green, I'd like to get a quote for a cleaning service in Regina!";
+export const WHATSAPP_DEFAULT_MESSAGE = "Hi Sagalgreen, I'd like to get a quote for a cleaning service in Regina!";
 export const WHATSAPP_HREF = `${WHATSAPP_BASE_URL}?text=${encodeURIComponent(WHATSAPP_DEFAULT_MESSAGE)}`;
 export const EMAIL = "sagalgreen.services@yahoo.com";
 export const EMAIL_HREF = `mailto:${EMAIL}`;
@@ -40,7 +40,7 @@ export const services: Service[] = [
     teaser:
       "Full-service home cleaning tailored to your space and schedule. Ask about our Preference Clean if you only need certain rooms done.",
     headerImage: residentialImage,
-    headerAlt: "Sagal Green cleaner wiping down a kitchen counter during a home cleaning in Regina",
+    headerAlt: "Sagalgreen cleaner wiping down a kitchen counter during a home cleaning in Regina",
     tagline: "Come home to a space that finally feels like yours again.",
     body: [
       "There's a difference between a house that's \u201ccleaned\u201d and a house that feels cared for \u2014 and that difference is in the details. Our home cleaning service is built around your home, not a generic checklist. We take the time to understand how you actually live in your space, then clean it accordingly: the counters you cook on every day, the floors your kids play on, the corners that collect dust when life gets busy.",
@@ -62,7 +62,7 @@ export const services: Service[] = [
     teaser:
       "Professional, discreet cleaning for offices, commercial workspaces, and studios across Regina.",
     headerImage: heroImage,
-    headerAlt: "Spotless modern office space cleaned by Sagal Green Cleaning Services",
+    headerAlt: "Spotless modern office space cleaned by Sagalgreen Cleaning Services",
     tagline: "A clean, productive workspace that makes the right impression on clients and staff.",
     body: [
       "Your workspace sets the tone for your business \u2014 for the clients who walk through the door and the team that works there every day. A clean office isn't just about appearances; it's about creating a healthy, distraction-free environment where people can focus on what they do best.",
@@ -144,6 +144,6 @@ export const faqs: Faq[] = [
   },
   {
     q: "What areas do you serve?",
-    a: "We serve homes and offices in Regina, Saskatchewan.",
+    a: "We serve homes, offices, and short-term rentals in Regina, Saskatchewan.",
   },
 ];

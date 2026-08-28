@@ -98,7 +98,7 @@ export default function OutcomeSection() {
 
             <Reveal delay={90}>
               <p className="mt-4 text-base leading-relaxed text-charcoal sm:text-lg">
-                Drag across the photo and see exactly what a Sagal Green visit does to a room — no filters, no staging, just the difference we make.
+                Drag across the photo and see exactly what a Sagalgreen visit does to a room — no filters, no staging, just the difference we make.
               </p>
             </Reveal>
 

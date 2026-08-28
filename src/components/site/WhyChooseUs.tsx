@@ -52,7 +52,7 @@ export default function WhyChooseUs() {
         <div className="text-center">
           <Reveal>
             <span className="inline-flex items-center gap-1.5 rounded-full bg-white/10 px-4 py-1.5 text-xs font-bold uppercase tracking-[0.2em] text-[#4CB944] backdrop-blur-sm">
-              <HeartHandshake size={15} /> Why Choose Sagal Green
+              <HeartHandshake size={15} /> Why Choose Sagalgreen
             </span>
             <h2
               className="mt-4 text-3xl font-extrabold tracking-tight sm:text-4xl lg:text-5xl text-white"

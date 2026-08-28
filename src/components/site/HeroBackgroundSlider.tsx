@@ -10,7 +10,7 @@ import heroBg5 from "@/assets/airbnb_turnover_heade.jpg";
 export const heroSlides = [
   {
     src: heroBg1,
-    alt: "Pristine modern office interior cleaned by Sagal Green Cleaning Services in Regina",
+    alt: "Pristine modern office interior cleaned by Sagalgreen Cleaning Services in Regina",
     tag: "Commercial & Office Cleaning",
   },
   {
@@ -20,7 +20,7 @@ export const heroSlides = [
   },
   {
     src: heroBg3,
-    alt: "Immaculate living space cleaned by Sagal Green",
+    alt: "Immaculate living space cleaned by Sagalgreen",
     tag: "Deep Cleaning & Living Spaces",
   },
   {
@@ -95,11 +95,10 @@ export default function HeroBackgroundSlider() {
               type="button"
               onClick={() => setCurrent(index)}
               aria-label={`Go to background image ${index + 1}`}
-              className={`h-2 rounded-full transition-all duration-300 cursor-pointer ${
-                index === current
+              className={`h-2 rounded-full transition-all duration-300 cursor-pointer ${index === current
                   ? "w-6 bg-[#4CB944]"
                   : "w-2 bg-white/40 hover:bg-white/70"
-              }`}
+                }`}
             />
           ))}
         </div>

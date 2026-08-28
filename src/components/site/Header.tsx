@@ -53,7 +53,7 @@ export default function Header() {
             href={INSTAGRAM_HREF}
             target="_blank"
             rel="noreferrer"
-            aria-label="Sagal Green on Instagram"
+            aria-label="Sagalgreen on Instagram"
             className="hover:text-gold"
           >
             <Instagram size={18} />
@@ -89,7 +89,7 @@ export default function Header() {
           <Link to="/" className="flex items-center">
             <img
               src={logo}
-              alt="Sagal Green Cleaning Services logo"
+              alt="Sagalgreen Cleaning Services logo"
               className={isHome ? "h-14 w-auto brightness-0 invert" : "h-14 w-auto"}
             />
           </Link>

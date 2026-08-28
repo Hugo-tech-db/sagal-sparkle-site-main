@@ -32,7 +32,7 @@ export default function HowItWorks() {
             <Reveal className="w-full max-w-lg lg:max-w-none">
               <img
                 src={deviceMockup}
-                alt="Sagal Green online quote request form on laptop, tablet, and mobile devices"
+                alt="Sagalgreen online quote request form on laptop, tablet, and mobile devices"
                 className="w-full h-auto object-contain drop-shadow-2xl transition-transform duration-500 hover:scale-[1.02]"
               />
             </Reveal>

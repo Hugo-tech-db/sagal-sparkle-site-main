@@ -212,7 +212,7 @@ export default function TestimonialsSection() {
               What our clients say
             </h2>
             <p className="mx-auto mt-4 max-w-xl text-charcoal/80">
-              Real words from real homes. Every review below comes from a client who experienced the Sagal Green difference first-hand.
+              Real words from real homes. Every review below comes from a client who experienced the Sagalgreen difference first-hand.
             </p>
           </Reveal>
 
@@ -341,7 +341,7 @@ export default function TestimonialsSection() {
                       rows={4}
                       value={formText}
                       onChange={(e) => setFormText(e.target.value)}
-                      placeholder="Tell us about your experience with Sagal Green Cleaning Services..."
+                      placeholder="Tell us about your experience with Sagalgreen Cleaning Services..."
                       className="w-full rounded-xl border border-black/10 bg-gray-50 px-4 py-3 text-sm text-navy placeholder-charcoal/40 outline-none transition focus:border-[#4CB944] focus:ring-2 focus:ring-[#4CB944]/20 resize-none"
                     />
                   </div>
