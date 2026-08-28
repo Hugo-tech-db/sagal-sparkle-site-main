@@ -3,9 +3,10 @@ import heroImage from "@/assets/hero_background.png";
 import beforeImage from "@/assets/bedroom_before_clean.png";
 import afterImage from "@/assets/bedroom_after_clean.png";
 import residentialImage from "@/assets/residential_cleaning_header.jpg";
+import airbnbImage from "@/assets/airbnb_turnover_heade.jpg";
 import ctaBannerImage from "@/assets/FOOTER_BACKGROUND.jpg";
 
-export { logo, beforeImage, afterImage, ctaBannerImage, heroImage };
+export { logo, beforeImage, afterImage, ctaBannerImage, heroImage, airbnbImage };
 export const heroImageAlt =
   "Bright, spotless modern lobby cleaned by Sagalgreen Cleaning Services";
 
@@ -20,7 +21,8 @@ export const INSTAGRAM_HREF = "https://instagram.com/";
 
 export type ServiceKey =
   | "home-cleaning"
-  | "office-cleaning";
+  | "office-cleaning"
+  | "airbnb-cleaning";
 
 export type Service = {
   slug: ServiceKey;
@@ -78,10 +80,35 @@ export const services: Service[] = [
       "Hard floors mopped and carpets thoroughly vacuumed",
     ],
   },
+  {
+    slug: "airbnb-cleaning",
+    title: "Airbnb & Short-Term Rental Cleaning",
+    teaser:
+      "Fast, detail-oriented turnovers for Airbnb and short-term rental hosts in Regina. 5-star guest readiness between every checkout and check-in.",
+    headerImage: airbnbImage,
+    headerAlt: "Immaculate bedroom and staged bed for Airbnb guests by Sagalgreen Cleaning",
+    tagline: "5-star guest readiness between every checkout and check-in.",
+    body: [
+      "Running a successful short-term rental means guest reviews make or break your business — and cleanliness is always the #1 rating factor. We provide prompt, thorough turnover cleanings timed perfectly between guest checkout and check-in windows.",
+      "From washing and changing linens and staging fresh towels to sanitizing high-touch surfaces, cleaning kitchens and bathrooms, and restocking host amenities, we take care of the entire turnover so you never have to stress.",
+      "We treat your property like the high-standard hospitality experience your guests expect, giving you complete peace of mind and glowing reviews every time.",
+    ],
+    included: [
+      "Bed linens washed, replaced, and neatly made",
+      "Fresh towels folded and staged for incoming guests",
+      "Bathrooms scrubbed, sanitized, and restocked with amenities",
+      "Kitchen counters sanitized, sink polished, appliances wiped",
+      "Dishes washed or dishwasher loaded and emptied",
+      "Floors vacuumed and mopped throughout the entire unit",
+      "Trash emptied and relined with fresh bags",
+      "Damage & host supply check reporting for peace of mind",
+    ],
+  },
 ];
 
 export const serviceBySlug = (slug: string) => {
   if (slug === "residential-cleaning") return services.find((s) => s.slug === "home-cleaning");
+  if (slug === "airbnb-turnover" || slug === "airbnb") return services.find((s) => s.slug === "airbnb-cleaning");
   return services.find((s) => s.slug === slug);
 };
 
@@ -108,6 +135,11 @@ export const serviceMeta: Record<ServiceKey, ServiceMeta> = {
     label: "The workspace clean",
     solves: "Maintains a fresh, hygienic, and professional office environment for your team and clients.",
     suitedFor: "Offices, commercial workspaces, clinics, studios, and businesses in Regina.",
+  },
+  "airbnb-cleaning": {
+    label: "The guest-ready turnover",
+    solves: "Guarantees spotless, hotel-grade turnovers between guests without host stress.",
+    suitedFor: "Airbnb hosts, VRBO owners, and short-term rental property managers in Regina.",
   },
 };
 

@@ -1,21 +1,23 @@
 import { Link } from "@tanstack/react-router";
 import { useState } from "react";
-import { ChevronDown, Check, Sparkles, RefreshCw, Briefcase, Building } from "lucide-react";
+import { ChevronDown, Check, Sparkles, RefreshCw, Briefcase, Building, KeyRound, BedDouble } from "lucide-react";
 import { services, serviceMeta, type ServiceKey } from "./brand";
 import Reveal from "./Reveal";
 import homeIcon from "@/assets/icon_residential.png";
 import officeIcon from "@/assets/icon_office.png";
+import airbnbIcon from "@/assets/icon_airbnb.png";
 
 const icons: Record<ServiceKey, string> = {
   "home-cleaning": homeIcon,
   "office-cleaning": officeIcon,
+  "airbnb-cleaning": airbnbIcon,
 };
 
 export default function ServicesGrid() {
   const [open, setOpen] = useState<ServiceKey | null>(null);
 
   return (
-    <div className="grid gap-8 md:grid-cols-2 max-w-4xl mx-auto">
+    <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3 max-w-6xl mx-auto">
       {services.map((s, i) => {
         const meta = serviceMeta[s.slug];
         const isOpen = open === s.slug;
@@ -62,6 +64,18 @@ export default function ServicesGrid() {
                 </span>
                 <span className="inline-flex items-center gap-1.5 rounded-full bg-[#4CB944]/10 px-3 py-1 text-xs font-semibold text-[#3da835]">
                   <Briefcase size={11} aria-hidden /> Scheduled Maintenance
+                </span>
+              </div>
+            )}
+
+            {/* Sub-services for Airbnb Cleaning */}
+            {s.slug === "airbnb-cleaning" && (
+              <div className="mt-4 flex flex-wrap justify-center gap-2">
+                <span className="inline-flex items-center gap-1.5 rounded-full bg-[#4CB944]/10 px-3 py-1 text-xs font-semibold text-[#3da835]">
+                  <KeyRound size={11} aria-hidden /> Fast Turnovers
+                </span>
+                <span className="inline-flex items-center gap-1.5 rounded-full bg-[#4CB944]/10 px-3 py-1 text-xs font-semibold text-[#3da835]">
+                  <BedDouble size={11} aria-hidden /> Guest Ready
                 </span>
               </div>
             )}

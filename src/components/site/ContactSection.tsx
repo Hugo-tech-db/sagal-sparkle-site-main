@@ -170,6 +170,9 @@ export default function ContactSection() {
                   <option value="Office Cleaning">Office Cleaning</option>
                   <option value="Recurring Office Cleaning">Recurring Office Cleaning</option>
                 </optgroup>
+                <optgroup label="Airbnb & Short-Term Rentals">
+                  <option value="Airbnb Turnover Cleaning">Airbnb Turnover Cleaning</option>
+                </optgroup>
                 <optgroup label="Other">
                   <option value="Custom / Other Cleaning">Custom / Other Request</option>
                 </optgroup>

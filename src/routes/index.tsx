@@ -18,9 +18,9 @@ import {
 const heroServices = [
   "Home Cleaning",
   "Office Cleaning",
+  "Airbnb & Short-Term Turnovers",
   "Deep Cleaning & Refresh",
   "Recurring Cleaning Plans",
-  "Preference & Custom Cleans",
 ];
 
 const heroTrust = [
