@@ -1,4 +1,4 @@
-import logo from "@/assets/sagal_new_logo.png";
+import logo from "@/assets/updated_logo.png";
 import heroImage from "@/assets/hero_background.png";
 import beforeImage from "@/assets/bedroom_before_clean.png";
 import afterImage from "@/assets/bedroom_after_clean.png";

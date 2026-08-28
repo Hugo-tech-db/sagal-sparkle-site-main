@@ -29,17 +29,13 @@ const heroTrust = [
   { icon: HomeIcon, title: "Detail-Oriented", body: "We don't just clean, we care." },
 ];
 
-const title = "Sagalgreen Cleaning Services | Home & Office Cleaning in Regina";
-const description =
-  "Professional home and office cleaning in Regina, Saskatchewan — reliable, detail-oriented cleaning for residences and commercial workspaces. Free quotes.";
+const title = "Sagalgreen Cleaning Services";
 
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
       { title },
-      { name: "description", content: description },
       { property: "og:title", content: title },
-      { property: "og:description", content: description },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
     ],

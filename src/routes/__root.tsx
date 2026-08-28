@@ -82,10 +82,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       { title: "Sagalgreen Cleaning Services" },
-      {
-        name: "description",
-        content: "Professional home cleaning in Regina, Saskatchewan.",
-      },
+      { property: "og:title", content: "Sagalgreen Cleaning Services" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
     ],
